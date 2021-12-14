@@ -3,6 +3,6 @@ if (window.location.hash) {
 	if ($(hash).length) {
 		$('html, body').animate({
 			scrollTop: $(hash).offset().top -120
-		}, 900, '');
+		}, 500, '');
 	}
 }
